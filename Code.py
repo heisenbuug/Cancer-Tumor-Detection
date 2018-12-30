@@ -51,15 +51,3 @@ cn = confusion_matrix(yTest, gridPredictions)
 sns.heatmap(cn, annot = True)
 
 print(classification_report(yTest, gridPredictions))
-
-
-
-
-
-
-
-
-
-
-
-
